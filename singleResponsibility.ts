@@ -16,7 +16,7 @@ class ReportDocument {
     public data: any;
     public report: any;
 
-    generateReport(data: any) {}
+    generateReport(data: any) {} // Violation due to the generateReport and createPDF methods being too different
 
-    createPDF(report: any) {}
+    createPDF(report: any) {} // Violation due to the generateReport and createPDF methods being too different
 }
